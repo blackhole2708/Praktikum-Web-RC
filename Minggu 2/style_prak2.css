@@ -1,0 +1,65 @@
+.wrap {
+  background: rgb(181, 238, 238);
+  width: 900px;
+  margin: 10px auto;
+}
+
+/*Bagian Header*/
+.wrap .header {
+  background: rgb(248, 112, 0);
+  /*height 50px*/
+  padding: 2px 10px;
+}
+/*Akhir Header*/
+
+/*Bagian Menu*/
+.wrap .menu {
+  background: rgb(183, 245, 158);
+}
+
+.wrap .menu ul {
+  padding: 0;
+  margin: 0;
+  background: rgb(183, 245, 158);
+  overflow: hidden;
+}
+
+.wrap .menu ul li {
+  float: left;
+  list-style-type: none;
+  padding: 10px;
+}
+/*Akir menu*/
+
+.clear {
+  clear: both;
+}
+
+.badan {
+  height: 450px;
+}
+
+/*Bagian Sidebar*/
+.wrap .badan .sidebar {
+  background: orange;
+  float: left;
+  width: 25%;
+  height: 100%;
+}
+/*Akhir Sidebar*/
+
+/*Bagian Content*/
+.wrap .badan .content {
+  background: rgba(224, 197, 197, 0.904);
+  float: left;
+  height: 100%;
+  width: 75%;
+}
+/*Akhir Content*/
+
+/*Bagian Footer*/
+.wrap .footer {
+  width: 100%;
+  padding: 10px;
+}
+/*Akhir Footer*/
