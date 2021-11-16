@@ -1,0 +1,49 @@
+*{
+	margin : 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.container{
+	margin: 60px auto;
+	width: 440px;
+	height: auto;	
+}
+
+header{
+	background-color: rgb(231, 59, 59);
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 1px solid rgb(72, 255, 0);
+
+}
+
+.body{
+
+	display: flex;
+	height: auto;
+	width: auto;
+}
+div{
+	border: 1px solid rgb(72, 255, 0);
+}
+
+form{
+	background-color: rgb(0, 123, 247);
+}
+button{
+	background-color: rgb(0, 255, 255);
+}
+input{
+	background-color: lightslategrey;
+}
+p{
+	background-color: lightslategrey;
+	text-align: center;
+}
+h4{
+	background-color: darkslategrey;
+	text-align: right;
+}
